@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>David_Init</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        if ([self respondsToSelector:@selector(setExtendedLayoutIncludesOpaqueBars:)])
+        {
+            self.extendedLayoutIncludesOpaqueBars = NO;
+        }
+        if([self respondsToSelector:@selector(setEdgesForExtendedLayout:)])
+        {
+            self.edgesForExtendedLayout = UIRectEdgeNone;
+        }
+        if([self respondsToSelector:@selector(setModalPresentationCapturesStatusBarAppearance:)])
+        {
+            self.modalPresentationCapturesStatusBarAppearance = YES;
+        }
+    }
+    return self;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>52F48EAF-B0D8-4C13-920E-C2215FB65F33</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>David_Init</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>David_Init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mark</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark -- 预定义 (define)
+
+#pragma mark -- 生命周期 (life cycle)
+
+#pragma mark -- 私有方法 (private methods)
+
+#pragma mark -- 事件响应 (event response)
+
+#pragma mark -- 数据源和代理方法 (DataSource Delegate)
+
+#pragma mark -- getter and setter
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BA578C12-9454-4258-896E-4E5B0DCB78E0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>mark</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
